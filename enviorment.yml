@@ -1,0 +1,17 @@
+  
+name: my-enviorment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pip
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
+    - pysal
+    - neo4j
+    - selenium
+    
